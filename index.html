@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 2 - Formatting Text HTML</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f5f3;
+            margin: 0;
+            padding: 25px;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+        }
+
+        header {
+            text-align: center;
+            background-color: #176b45;
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+        }
+
+        .content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+            margin-top: 25px;
+        }
+
+        .bagian {
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background: #fff;
+        }
+
+        h2 {
+            color: #176b45;
+            border-bottom: 2px solid #176b45;
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            color: #333;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #ccc;
+            margin: 20px 0;
+        }
+
+        blockquote {
+            background: #eaf5ee;
+            border-left: 5px solid #176b45;
+            padding: 15px;
+            margin: 15px 0;
+            font-style: italic;
+        }
+
+        mark {
+            background-color: yellow;
+        }
+
+        code {
+            background: #eee;
+            padding: 4px 7px;
+            border-radius: 4px;
+            color: #c7254e;
+        }
+
+        address {
+            line-height: 1.7;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 25px;
+            padding: 15px;
+            background: #176b45;
+            color: white;
+            border-radius: 8px;
+        }
+
+        @media (max-width: 768px) {
+            .content {
+                grid-template-columns: 1fr;
+            }
+
+            body {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <header>
+        <h1>TUGAS 2 FORMATTING TEXT HTML</h1>
+        <p>Belajar Formatting Text dan Mengenal Dunia Pemrograman</p>
+    </header>
+
+    <div class="content">
+
+        <!-- BAGIAN KANAN -->
+        <section class="bagian">
+
+            <h2>1. Belajar Formatting Text pada HTML</h2>
+
+            <h3>Belajar Formatting Text pada HTML</h3>
+
+            <small>
+                Contoh halaman ini menampilkan berbagai tag formatting text dalam HTML.
+            </small>
+
+            <hr>
+
+            <h3>Pengenalan HTML</h3>
+
+            <p>
+                HTML adalah bahasa markup yang digunakan untuk membuat
+                halaman web. Dengan HTML, CSS, dan JavaScript menjadi
+                fondasi utama untuk membuat website.
+            </p>
+
+            <p>
+                Saat belajar, kita harus memahami dua hal yaitu
+                <strong>struktur dasar</strong> dan
+                <b>format teks</b>.
+                Programmer yang sukses memiliki sikap pantang menyerah
+                dan terus belajar.
+            </p>
+
+            <p>
+                Materi ini meliputi penggunaan
+                <em>teks penekanan</em>,
+                <i>teks miring</i>,
+                <mark>teks yang ditandai</mark>,
+                <del>teks yang dihapus</del>,
+                dan <ins>teks yang ditambahkan</ins>.
+            </p>
+
+            <p>
+                Contoh rumus: H<sub>2</sub>O dan CO<sub>2</sub>.
+                Contoh matematika: 10<sup>2</sup> = 100.
+            </p>
+
+            <hr>
+
+            <h3>Kutipan Motivasi</h3>
+
+            <blockquote>
+                "Belajar pemrograman melatih logika, kreativitas,
+                dan kemampuan menyelesaikan masalah."
+            </blockquote>
+
+            <hr>
+
+            <h3>Contoh Kode HTML</h3>
+
+            <p>
+                HTML merupakan singkatan dari
+                <abbr title="HyperText Markup Language">HTML</abbr>,
+                yaitu bahasa untuk membuat struktur halaman web.
+            </p>
+
+            <p>
+                Contoh kode:
+                <code>&lt;h1&gt;Selamat Datang&lt;/h1&gt;</code>
+            </p>
+
+            <hr>
+
+            <h3>Jadwal Praktikum</h3>
+
+            <p>
+                Praktikum HTML dilaksanakan pada
+                <time datetime="2026-08-03">3 Agustus 2026</time>.
+                Siswa diminta membuat halaman web sederhana.
+            </p>
+
+            <hr>
+
+            <h3>Informasi Sekolah</h3>
+
+            <address>
+                <strong>SMK Negeri 1 Contoh</strong><br>
+                Program Keahlian Pengembangan Perangkat Lunak dan Gim (PPLG)<br>
+                Jl. Pendidikan No. 10, Surakarta, Jawa Tengah<br>
+                Email: sekolah@example.com<br>
+                Telepon: (0271) 123456
+            </address>
+
+        </section>
+
+
+        <!-- BAGIAN KIRI -->
+        <section class="bagian">
+
+            <h2>2. Mengenal Dunia Pemrograman</h2>
+
+            <h3>Mengenal Dunia Pemrograman</h3>
+
+            <small>
+                Halaman ini berisi contoh penggunaan berbagai tag formatting
+                text dengan tema pemrograman.
+            </small>
+
+            <hr>
+
+            <h3>Dasar Pemrograman</h3>
+
+            <p>
+                <strong>Belajar pemrograman</strong> membantu kita
+                memahami berbagai aplikasi.
+                Mempelajari <b>algoritma, logika, dan coding</b>
+                menjadi fondasi dasar seorang programmer.
+            </p>
+
+            <p>
+                Seorang programmer harus aktif mencari ilmu
+                dan selalu mengembangkan setiap ide
+                untuk menghasilkan karya yang bermanfaat.
+            </p>
+
+            <p>
+                Materi ini adalah panduan singkat bagi pemula.
+                Dibahas berbagai pengertian dasar mengenai
+                <em>algoritma</em>, <i>struktur data</i>,
+                dan <mark>teknologi modern</mark>.
+            </p>
+
+            <p>
+                Contoh tipe data:
+                x = 10, y = 20.
+                Rumus matematika:
+                5<sup>2</sup> = 25.
+                Rumus kimia:
+                H<sub>2</sub>O.
+            </p>
+
+            <hr>
+
+            <h3>Kutipan Motivasi</h3>
+
+            <blockquote>
+                "Kode yang baik bukan hanya berjalan,
+                tetapi juga mudah dipahami dan dipelihara."
+            </blockquote>
+
+            <hr>
+
+            <h3>Contoh Kode Program</h3>
+
+            <p>
+                JS merupakan singkatan dari
+                <abbr title="JavaScript">JS</abbr>,
+                yaitu bahasa pemrograman yang membuat website
+                menjadi lebih interaktif.
+            </p>
+
+            <p>
+                Contoh kode:
+                <code>console.log("Halo, Programmer!");</code>
+            </p>
+
+            <hr>
+
+            <h3>Jadwal Praktik Coding</h3>
+
+            <p>
+                Praktik pemrograman dilaksanakan pada
+                <time datetime="2026-08-03">3 Agustus 2026</time>.
+                Peserta diminta membuat program sederhana
+                menggunakan JavaScript.
+            </p>
+
+            <hr>
+
+            <h3>Informasi Kelas</h3>
+
+            <address>
+                <strong>Laboratorium Komputer</strong><br>
+                Kelas: Dasar Pemrograman<br>
+                Jl. Teknologi No. 5, Surakarta, Jawa Tengah<br>
+                Email: programming@example.com<br>
+                Telepon: (0271) 7654321
+            </address>
+
+        </section>
+
+    </div>
+
+    <footer>
+        <p>Tugas 2 Formatting Text HTML</p>
+        <p>Belajar HTML - Mengenal Dunia Pemrograman</p>
+    </footer>
+
+</div>
+
+</body>
+  </html>
